@@ -1,0 +1,254 @@
+html{
+    min-width: 1400px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    
+}
+.container-small {
+    padding: 0 100px;
+}
+.container-big{
+    padding: 0 183px;
+}
+
+/* Header */
+
+.header {
+   position: absolute;
+   padding: 38px 0;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+}
+
+.logo {
+    color: #533738;
+    position: relative;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    background: url('./images/Безимени-11.svg') no-repeat 50% 50%;
+    width: 25px;
+    height: 25px;
+    left: -25px;
+    top: -5px;
+}
+
+.nav-list {
+    padding-right: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list__item {
+    padding: 0 13px;
+}
+
+.nav__link {
+    color: #533738;
+}
+
+.number {
+    color: #533738;
+}
+
+
+/* PREVIEW */
+h1{
+    font-size: 5em;
+    width: 534px;
+    line-height: 62px;
+    color: #533738;
+}
+
+.preview {
+    padding-top: 152px;
+    padding-bottom: 168px;
+    background: url('./images/backgrounds/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.container-big > p{
+    margin: 24px 0 21px;
+    font-size: 1.6em;
+    max-width: 390px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #CC8B86;
+    padding: 25px 65px;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: #533738;
+}
+
+/* ABOUT US */
+
+h2{
+    font-size: 4em;
+    line-height: 50px;
+    color: #533738;
+}
+
+.about-us h2{
+    width: 300px;
+    margin: auto;
+
+
+}
+
+.about-us {
+    padding-top: 65px; 
+    background-color: #f8efe9;
+}
+
+.about-us-content > img{
+    width: 444.54px;
+    height: 465px;
+}
+
+.about-us-content > p{
+    font-size: 1.8em;
+    max-width: 528px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.about-us-content {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    display: flex;
+    gap: 61px;
+}
+
+.about-us-achievements {
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 183px 81px;
+    color: #fff;
+    background-color: #8D7370;
+}
+
+.about-us-achievements__item {
+    max-width: 192px;
+}
+
+.about-us-achievements__item > h3{
+   text-align: center;
+   font-size: 5em;
+   line-height: 62px;
+   font-weight: 400;
+}
+
+.about-us-achievements__item > div{
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+
+.our-work {
+    background-color: #f8efe9;;
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+
+.our-work-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+.our-work-gallery__item {
+    flex-basis: auto;
+    flex-shrink: 0.5;
+}
+
+.our-work__link {
+    margin: 40px auto;
+    display: block;
+    width: 224px;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 36.57px;
+    color: #533738;
+    position: relative;
+}
+
+.our-work__link::after {
+    content: '';
+    width: 60px;
+    height: 30px;
+    background: url('./images/Arrow3.svg') no-repeat 50% 50%;
+    position: absolute;
+    top: 5px;
+    right: -70px;
+}
+
+/* OUR TEAM */
+
+.our-team {
+    background-color: #E2C4BA;
+}
+
+.our-team h2 {
+    text-align: center;
+    padding: 50px 0px 42px;
+}
+
+
+.cards {
+    display: flex;
+}
+
+.cards__item {}
+
+.how-we-work {}
+
+.how-we-work__item {}
+
+.review {}
+
+.review__card {}
+
+.review-icons-box {}
+
+.review__icon {}
+
+.review__text {}
+
+.review__pictures {}
+
+.contact-us {}
+
+.form-wrapper {}
+
+.footer {}
+
+.number {}
+
+.address {}
+
+.owner {}
