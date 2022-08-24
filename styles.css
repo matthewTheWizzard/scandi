@@ -221,13 +221,49 @@ h2{
 
 .cards {
     display: flex;
+    justify-content: space-between;
 }
 
-.cards__item {}
+.cards__item {
+    max-width: 320px;
+    font-size: 1.8em;
+    line-height: 30px;
+    color: #533738;
+}
 
-.how-we-work {}
+.cards__item > img {
+    margin-bottom: 10px;
+}
 
-.how-we-work__item {}
+.how-we-work {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8em;
+    line-height: 30px;
+    color: #533738;
+    padding-bottom: 80px;
+}
+.item-circle{
+    text-align: center;
+    color: white;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    background-color: #8D7370;
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+.how-we-work__item {
+    max-width: 285px;
+    text-align: center;
+}
+
+.how-we-work__item > p {
+    margin-top: 20px;
+}
 
 .review {}
 
