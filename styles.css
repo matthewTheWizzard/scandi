@@ -35,6 +35,7 @@ body{
 .logo {
     color: #533738;
     position: relative;
+    cursor: pointer;
 }
 
 .logo::before{
@@ -60,6 +61,11 @@ body{
 
 .nav__link {
     color: #533738;
+}
+
+.nav__link:hover {
+    color: #CC8B86;
+    transition: all 0.3s;
 }
 
 .number {
@@ -99,6 +105,12 @@ h1{
     font-weight: 500;
     line-height: 24.38px;
     color: #533738;
+}
+
+.btn:hover{
+    background-color: #af6c69;
+    transition: all 0.5s;
+    color: #E2C4BA;
 }
 
 /* ABOUT US */
@@ -303,6 +315,11 @@ h2{
     position: relative;
 }
 
+.review__icon:hover{
+    background-color: #af6c69;
+    transition: all 0.5s;
+}
+
 .review__icon::before{
     content: '';
     width: 32px;
@@ -382,6 +399,11 @@ h2{
     line-height: 30px;
     color: #F6EDE9;
 }
+
+.form input:focus{
+    border-bottom: solid 3px #fff;
+    transition: all 0.5s;
+    }
 
 .form input::placeholder{
     color: #F6EDE9;
