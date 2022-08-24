@@ -265,17 +265,69 @@ h2{
     margin-top: 20px;
 }
 
-.review {}
+.review {
+    padding: 65px 0;
+    background-color:#f8efe9;
+    color: #533738;
+    font-size: 18px;
+    line-height: 30px;
+}
 
-.review__card {}
+.review h2 {
+    margin: 0 auto;
+    width: fit-content;
+}
 
-.review-icons-box {}
+.review__card {
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.review__icon {}
 
-.review__text {}
+.review-icons-box {
+    position: absolute;
+}
 
-.review__pictures {}
+.review__icon {
+    width: 72px;
+    height: 72px;
+    background-color: #CC8B86;
+    border-radius: 50%;
+    position: relative;
+}
+
+.review__icon::before{
+    content: '';
+    width: 32px;
+    height: 20px;
+    position: absolute;
+    background: url('./images/Arrow2.svg') no-repeat 50% 50%;
+    left: 20px;
+    top: 26px;
+}
+
+.icon_right{
+    transform: rotateY(180deg);
+}
+
+.review__text {
+    max-width: 407px;
+}
+
+.review__pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.review__pictures > img {
+    width: 407px;
+    height: 272px;
+}
 
 .contact-us {}
 
