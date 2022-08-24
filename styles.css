@@ -1,5 +1,6 @@
 html{
     min-width: 1400px;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -388,10 +389,20 @@ h2{
     line-height: 30px;
 }
 
-.footer {}
+.footer {
+    background-color: #f8efe9;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    padding: 37px 0;
+}
 
-.number {}
+.footer-wrapper{
+    display: flex;
+    gap: 42px;
+}
 
-.address {}
-
-.owner {}
+.owner {
+    margin-left: auto;
+}

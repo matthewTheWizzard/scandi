@@ -17,22 +17,22 @@
                 <span class="logo">SCANDI</span>
                 <ul class="nav-list">
                     <li class="nav-list__item">
-                        <a href="#" class="nav__link">О компании</a>
+                        <a href="#us" class="nav__link">О компании</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#" class="nav__link">Портфолио</a>
+                        <a href="#portfolio" class="nav__link">Портфолио</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#" class="nav__link">Команда</a>
+                        <a href="#team" class="nav__link">Команда</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#" class="nav__link">Как мы работаем</a>
+                        <a href="#work" class="nav__link">Как мы работаем</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#" class="nav__link">Отзывы клиентов</a>
+                        <a href="#review" class="nav__link">Отзывы клиентов</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#" class="nav__link">Оставить заявку</a>
+                        <a href="#contacts" class="nav__link">Оставить заявку</a>
                     </li>
                 </ul>
                 <span class="number">+7 (981) 857-46-24</span>
@@ -51,7 +51,7 @@
         </section>
         <section class="about-us">
             <div class="container-big">
-                <h2>О НАС</h2>
+                <h2 id="us">О НАС</h2>
                 <div class="about-us-content">
                     <img src="images/shche_-team-PFi1uWHh2dQ-unsplash1.jpg" alt="фото с серверовкой стола">
                     <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые
@@ -80,7 +80,7 @@
         </section>
         <section class="our-work">
             <div class="container-small">
-                <h2>НАШИ РАБОТЫ</h2>
+                <h2 id="portfolio">НАШИ РАБОТЫ</h2>
                 <div class="our-work-gallery">
                     <div class="flex">
                         <div class="our-work-gallery__item grid1"><img src="./images/image55.jpg" alt=""></div>
@@ -96,7 +96,7 @@
         </section>
         <section class="our-team">
             <div class="container-big">
-                <h2>КОМАНДА</h2>
+                <h2 id="team">КОМАНДА</h2>
                 <div class="cards">
                     <div class="cards__item">
                         <img src="images/photos/image61.jpg" alt="">
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="container-small">
-                <h2>КАК МЫ РАБОТАЕМ</h2>
+                <h2 id="work">КАК МЫ РАБОТАЕМ</h2>
                 <div class="how-we-work">
                     <div class="how-we-work__item">
                         <div class="item-circle">1</div>
@@ -145,7 +145,7 @@
         </section>
         <section class="review">
             <div class="container-big">
-                <h2>ОТЗЫВЫ</h2>
+                <h2 id="review">ОТЗЫВЫ</h2>
                 <aside class="review__card">
                         <div class="review__icon icon_left"></div>
                     <article class="review__text">
@@ -176,7 +176,7 @@
             <div class="container-big">
                 <div class="contact-us-wrapper">
                     <div class="form-wrapper">
-                        <h2>ОСТАВИТЬ ЗАЯВКУ</h2>
+                        <h2 id="contacts">ОСТАВИТЬ ЗАЯВКУ</h2>
                         <p>Оставьте свои контакты. Менеджер перезвонит
                             в удобное вам время и ответит на все вопросы.</p>
                         <form class="form" action="#">
@@ -192,9 +192,11 @@
     </main>
     <footer class="footer">
         <div class="container-small">
-            <span class="number">+7 (981) 857-46-24</span>
-            <span class="address">г. Санкт-петербург, ул. Большая Конюшенная, 19</span>
-            <span class="owner">ИП Королёва А.А.</span>
+            <div class="footer-wrapper">
+                <span class="number">+7 (981) 857-46-24</span>
+                <span class="address">г. Санкт-петербург, ул. Большая Конюшенная, 19</span>
+                <span class="owner">ИП Королёва А.А.</span>
+            </div>
         </div>
     </footer>
 </body>
